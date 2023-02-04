@@ -92,24 +92,25 @@ body {
 }
 .images {
   display: flex;
-  justify-content: center;
   margin-top: 123px;
+  margin-left: 131px;
 }
 .section-img {
   width: 551px;
   height: 286.84px;
 }
 .section-img-1 {
-  margin-left: 30px;
+  margin-top: -574px;
+  margin-left: 712px;
   width: 552px;
   height: 574px;
 }
 .images-2 {
-  margin-top: -266px;
   margin-left: 131px;
+  margin-top: 22px;
 }
 .section-img-3 {
-  margin-left: 25px;
+  margin-left: 22px;
 }
 .section-women-title {
   text-align: center;
