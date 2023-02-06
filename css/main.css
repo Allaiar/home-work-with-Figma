@@ -46,7 +46,7 @@ body {
 .header-text {
   position: absolute;
   width: 102px;
-  left: 800px;
+  left: 840px;
   top: 460px;
   font-weight: 500;
   font-size: 16px;
@@ -56,7 +56,7 @@ body {
   position: absolute;
   width: 453px;
   height: 120px;
-  left: 800px;
+  left: 840px;
   top: 480px;
   font-weight: 700;
   font-size: 80px;
@@ -66,7 +66,7 @@ body {
   position: absolute;
   width: 409px;
   height: 27px;
-  left: 800px;
+  left: 840px;
   top: 575px;
   font-weight: 500;
   font-size: 18px;
@@ -76,7 +76,7 @@ body {
   position: absolute;
   width: 147px;
   height: 35px;
-  left: 800px;
+  left: 840px;
   top: 630px;
   color: white;
   background: #22262a;
@@ -85,14 +85,14 @@ body {
   position: absolute;
   width: 147px;
   height: 35px;
-  left: 980px;
+  left: 1000px;
   top: 630px;
   color: white;
   background: #22262a;
 }
 .images {
   margin-top: 123px;
-  margin-left: 131px;
+  margin-left: 151px;
 }
 .section-img {
   width: 551px;
@@ -100,12 +100,12 @@ body {
 }
 .section-img-1 {
   margin-top: -574px;
-  margin-left: 712px;
+  margin-left: 732px;
   width: 552px;
   height: 574px;
 }
 .images-2 {
-  margin-left: 131px;
+  margin-left: 151px;
   margin-top: 22px;
 }
 .section-img-3 {
