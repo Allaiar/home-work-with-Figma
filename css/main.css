@@ -44,54 +44,43 @@ body {
   height: 745px;
 }
 .header-text {
-  position: absolute;
-  width: 102px;
-  left: 840px;
-  top: 460px;
+  margin-left: 840px;
+  margin-top: -300px;
   font-weight: 500;
   font-size: 16px;
   color: #22262a;
 }
 .header-title {
-  position: absolute;
-  width: 453px;
-  height: 120px;
-  left: 840px;
-  top: 480px;
+  margin-left: 840px;
+  margin-top: -20px;
   font-weight: 700;
   font-size: 80px;
   color: #22262a;
 }
 .header-text2 {
-  position: absolute;
-  width: 409px;
-  height: 27px;
-  left: 840px;
-  top: 575px;
+  margin-left: 840px;
+  margin-top: -20px;
   font-weight: 500;
   font-size: 18px;
   color: #22262a;
 }
 .header-button {
-  position: absolute;
+  margin-left: 840px;
+  margin-top: 25px;
   width: 147px;
   height: 35px;
-  left: 840px;
-  top: 630px;
   color: white;
   background: #22262a;
 }
 .header-button-2 {
-  position: absolute;
   width: 147px;
   height: 35px;
-  left: 1000px;
-  top: 630px;
+  margin-left: 30px;
   color: white;
   background: #22262a;
 }
 .images {
-  margin-top: 123px;
+  margin-top: 380px;
   margin-left: 151px;
 }
 .section-img {
@@ -298,9 +287,22 @@ body {
   font-size: 25px;
 }
 .email-address {
+  padding: 0 0 0 10px;
   margin-top: 24px;
   width: 532px;
   height: 45px;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 6px;
+  background: white;
+  color: #22262a;
+}
+.join {
+  position: relative;
+  font-weight: 600;
+  font-size: 15px;
+  top: -35px;
+  left: 470px;
   color: #22262a;
 }
 .support-container-1 {
@@ -322,16 +324,787 @@ body {
   font-size: 15px;
   color: #22262a;
 }
-.bottom {
-  width: 100%;
-  height: 93px;
-  background: #e7f5f8;
-}
 .bottom-text-2 {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
   padding: 35px 0 35px 0;
   font-weight: 400;
   font-size: 15px;
+  background: #e7f5f8;
   color: #22262a;
+}
+
+@media (max-width: 770px) {
+  .logo {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  .nav {
+    padding: 0;
+  }
+  .nav-links {
+    gap: 15px;
+    margin-left: -30px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .shopping-card {
+    width: 125px;
+    margin-right: 40px;
+  }
+  .header-text {
+    font-size: 11px;
+    margin-top: -170px;
+    margin-left: 440px;
+  }
+  .header-title {
+    font-size: 40px;
+    margin-top: -5px;
+    margin-left: 440px;
+  }
+  .header-text2 {
+    font-size: 11px;
+    margin-top: -5px;
+    margin-left: 440px;
+  }
+  .header-button {
+    width: 90px;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 440px;
+  }
+  .header-button-2 {
+    width: 90px;
+    height: 20px;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+  .images {
+    margin-top: 120px;
+    margin-left: 40px;
+  }
+  .images-2 {
+    margin-top: 11px;
+    margin-left: 40px;
+  }
+  .section-img {
+    width: 335px;
+    height: 160px;
+  }
+  .section-img-1 {
+    width: 335px;
+    height: 332px;
+    margin-left: 395px;
+    margin-top: -331px;
+  }
+  .section-img-2 {
+    width: 160px;
+    height: 160px;
+  }
+  .section-img-3 {
+    width: 160px;
+    height: 160px;
+    margin-left: 11px;
+  }
+  .cards {
+    width: 690px;
+    margin-left: 40px;
+  }
+  .fashion-text {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .fashion-title {
+    font-size: 10px;
+  }
+  .price {
+    font-size: 11px;
+  }
+  .mens-cards {
+    width: 690px;
+    margin-left: 40px;
+  }
+  .styles-card {
+    margin-top: 75px;
+    margin-left: 40px;
+    width: 296px;
+  }
+  .styles-card-2 {
+    margin: 30px 0 0 15px;
+    width: 297px;
+  }
+  .styles-card-3 {
+    width: 154px;
+    margin-left: -135px;
+    margin-top: 265px;
+  }
+  .styles-card-4 {
+    width: 154px;
+    margin-left: -130px;
+    margin-top: 253px;
+  }
+  .styles-text {
+    font-weight: 400;
+    font-size: 9px;
+    margin-top: 110px;
+    margin-left: 55px;
+  }
+  .header-img-bottom {
+    margin-top: -290px;
+  }
+  .header-text-bottom {
+    position: absolute;
+    left: 40px;
+    top: 2765px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .header-title-bottom {
+    position: absolute;
+    left: 40px;
+    top: 2780px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .header-button-bottom {
+    position: absolute;
+    width: 107px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 9px;
+    left: 40px;
+    top: 2840px;
+  }
+  .footer {
+    background: #f2f8fc;
+  }
+  .communication {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 201px;
+    width: 406px;
+    height: 30px;
+  }
+  .footer-logo {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #22262a;
+  }
+  .footer-text {
+    margin-bottom: -6px;
+    width: 210px;
+    height: 69px;
+    font-weight: 400;
+    font-size: 8px;
+    color: #22262a;
+  }
+  .footer-text-2 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #22262a;
+  }
+  .footer-text-3 {
+    margin-bottom: 1px;
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: underline;
+    color: #22262a;
+  }
+  .footer-text-4 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #22262a;
+  }
+  .flex-icon {
+    display: flex;
+    height: 16px;
+    margin-bottom: 16px;
+  }
+  .footer-icon {
+    margin-top: 1px;
+    width: 15px;
+    height: 15px;
+  }
+  .email {
+    width: 261px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+  .email-title {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .email-address {
+    margin-top: 14px;
+    padding: 0 0 0 9px;
+    border-radius: 4px;
+    width: 240px;
+    height: 30px;
+    font-size: 10px;
+    background: white;
+    color: #22262a;
+  }
+  .join {
+    position: relative;
+    font-weight: 600;
+    font-size: 11px;
+    top: -29px;
+    left: 200px;
+    color: #22262a;
+  }
+  .support-container-1 {
+    margin-right: 50px;
+  }
+  .support-container-2 {
+    margin-right: 20px;
+  }
+  .support-title {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #22262a;
+  }
+  .support-text {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 7px;
+    color: #22262a;
+  }
+  .bottom-text-2 {
+    padding: 20px 0 20px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 645px) {
+  .logo {
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .nav {
+    padding: 0;
+  }
+  .nav-links {
+    gap: 15px;
+    margin-left: -30px;
+  }
+  .nav-link {
+    font-size: 12px;
+  }
+  .shopping-card {
+    width: 120px;
+    margin-right: 10px;
+  }
+  .header-text {
+    font-size: 11px;
+    margin-top: -150px;
+    margin-left: 380px;
+  }
+  .header-title {
+    font-size: 40px;
+    margin-top: -5px;
+    margin-left: 380px;
+  }
+  .header-text2 {
+    font-size: 11px;
+    margin-top: -5px;
+    margin-left: 380px;
+  }
+  .header-button {
+    width: 90px;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 380px;
+  }
+  .header-button-2 {
+    width: 90px;
+    height: 20px;
+    font-size: 13px;
+    margin-left: 15px;
+  }
+  .images {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  .images-2 {
+    margin-top: 11px;
+    margin-left: 40px;
+  }
+  .section-img {
+    width: 275px;
+    height: 130px;
+  }
+  .section-img-1 {
+    width: 275px;
+    height: 272px;
+    margin-left: 325px;
+    margin-top: -271px;
+  }
+  .section-img-2 {
+    width: 130px;
+    height: 130px;
+  }
+  .section-img-3 {
+    width: 130px;
+    height: 130px;
+    margin-left: 11px;
+  }
+  .cards {
+    width: 561px;
+    margin-left: 40px;
+  }
+  .fashion-text {
+    font-size: 13px;
+    margin-top: 19px;
+  }
+  .fashion-title {
+    font-size: 11px;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .mens-cards {
+    width: 561px;
+    margin-left: 40px;
+  }
+  .styles-card {
+    margin-top: 75px;
+    margin-left: 40px;
+    width: 276px;
+  }
+  .styles-card-2 {
+    margin: 30px 0 0 15px;
+    width: 257px;
+  }
+  .styles-card-3 {
+    width: 114px;
+    margin-left: -100px;
+    margin-top: 235px;
+  }
+  .styles-card-4 {
+    width: 114px;
+    margin-left: -110px;
+    margin-top: 223px;
+  }
+  .styles-text {
+    font-weight: 400;
+    font-size: 9px;
+    margin-top: 90px;
+    margin-left: 45px;
+  }
+  .header-img-bottom {
+    margin-top: -370px;
+  }
+  .header-text-bottom {
+    position: absolute;
+    left: 30px;
+    top: 2516px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .header-title-bottom {
+    position: absolute;
+    left: 30px;
+    top: 2530px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .header-button-bottom {
+    position: absolute;
+    width: 107px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 9px;
+    left: 30px;
+    top: 2590px;
+  }
+  .footer {
+    margin-top: -94px;
+  }
+  .communication {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 201px;
+    width: 406px;
+    height: 30px;
+  }
+  .footer-logo {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #22262a;
+  }
+  .footer-text {
+    margin-bottom: -6px;
+    width: 210px;
+    height: 69px;
+    font-weight: 400;
+    font-size: 8px;
+    color: #22262a;
+  }
+  .footer-text-2 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #22262a;
+  }
+  .footer-text-3 {
+    margin-bottom: 1px;
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: underline;
+    color: #22262a;
+  }
+  .footer-text-4 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #22262a;
+  }
+  .flex-icon {
+    display: flex;
+    height: 16px;
+    margin-bottom: 16px;
+  }
+  .footer-icon {
+    margin-top: 1px;
+    width: 15px;
+    height: 15px;
+  }
+  .email {
+    width: 261px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: -80px;
+  }
+  .email-title {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .email-address {
+    margin-top: 14px;
+    padding: 0 0 0 9px;
+    border-radius: 4px;
+    width: 240px;
+    height: 30px;
+    font-size: 10px;
+    background: white;
+    color: #22262a;
+  }
+  .join {
+    position: relative;
+    font-weight: 600;
+    font-size: 11px;
+    top: -29px;
+    left: 200px;
+    color: #22262a;
+  }
+  .support-container-1 {
+    margin-right: 50px;
+  }
+  .support-container-2 {
+    margin-right: 20px;
+  }
+  .support-title {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #22262a;
+  }
+  .support-text {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 7px;
+    color: #22262a;
+  }
+  .bottom-text-2 {
+    padding: 20px 0 20px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .logo {
+    font-size: 8px;
+  }
+  .nav {
+    padding: 0;
+  }
+  .nav-links {
+    gap: 7px;
+  }
+  .nav-link {
+    font-size: 6px;
+  }
+  .shopping-card {
+    width: 60px;
+  }
+  .header-text {
+    font-size: 5px;
+    margin-top: -70px;
+    margin-left: 200px;
+  }
+  .header-title {
+    font-size: 17px;
+    margin-top: -1px;
+    margin-left: 200px;
+  }
+  .header-text2 {
+    font-size: 5px;
+    margin-top: -1px;
+    margin-left: 200px;
+    margin-bottom: -4px;
+  }
+  .header-button {
+    width: 50px;
+    height: 10px;
+    font-size: 5.9px;
+    margin-left: 200px;
+  }
+  .header-button-2 {
+    width: 50px;
+    height: 10px;
+    font-size: 5.9px;
+    margin-left: 5px;
+  }
+  .images {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .images-2 {
+    margin-top: 6px;
+    margin-left: 20px;
+  }
+  .section-img {
+    width: 136px;
+    height: 65px;
+  }
+  .section-img-1 {
+    width: 137px;
+    height: 136px;
+    margin-left: 165px;
+    margin-top: -136px;
+  }
+  .section-img-2 {
+    width: 65px;
+    height: 65px;
+  }
+  .section-img-3 {
+    width: 65px;
+    height: 65px;
+    margin-left: 3px;
+  }
+  .section-women-title {
+    margin-top: 80px;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .section-women-text {
+    margin-bottom: -40px;
+    font-size: 9px;
+  }
+  .cards {
+    width: 300px;
+    margin-left: 10px;
+    gap: 10px;
+  }
+  .fashion-text {
+    font-size: 6px;
+    margin-top: 12px;
+  }
+  .fashion-title {
+    font-size: 6px;
+  }
+  .price {
+    font-size: 6px;
+  }
+  .span-stock {
+    position: relative;
+    top: -9.5px;
+    left: 13px;
+  }
+  .section-men-title {
+    margin-top: 80px;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .section-men-text {
+    margin-bottom: 30px;
+    font-size: 9px;
+  }
+  .mens-cards {
+    width: 300px;
+    margin-left: 10px;
+    gap: 10px;
+  }
+  .section-styles-title {
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .section-styles-text {
+    font-size: 9px;
+  }
+  .styles-card {
+    margin-top: 75px;
+    margin-left: 10px;
+    width: 140px;
+  }
+  .styles-card-2 {
+    margin: 20px 0 0 5px;
+    width: 140px;
+  }
+  .styles-card-3 {
+    width: 64px;
+    margin-left: -79px;
+    margin-top: 135px;
+  }
+  .styles-card-4 {
+    width: 90px;
+    margin-left: -67px;
+    margin-top: 125px;
+  }
+  .styles-text {
+    font-weight: 400;
+    font-size: 5px;
+    margin-top: 55px;
+    margin-left: 17px;
+  }
+  .header-img-bottom {
+    margin-top: -510px;
+  }
+  .header-text-bottom {
+    position: absolute;
+    left: 30px;
+    top: 1538px;
+    font-weight: 500;
+    font-size: 5px;
+  }
+  .header-title-bottom {
+    position: absolute;
+    left: 30px;
+    top: 1543px;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .header-button-bottom {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    font-weight: 500;
+    font-size: 3.5px;
+    left: 30px;
+    top: 1567px;
+  }
+  .footer {
+    margin: -390px 0 0 0;
+  }
+  .communication {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 115px;
+  }
+  .footer-logo {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 7px;
+    color: #22262a;
+  }
+  .footer-text {
+    margin-bottom: -26px;
+    width: 130px;
+    height: 69px;
+    font-weight: 400;
+    font-size: 6px;
+    color: #22262a;
+  }
+  .footer-text-2 {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 6px;
+    color: #22262a;
+  }
+  .footer-text-3 {
+    margin-bottom: 1px;
+    font-weight: 400;
+    font-size: 6px;
+    text-decoration: underline;
+    color: #22262a;
+  }
+  .footer-text-4 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 6px;
+    color: #22262a;
+  }
+  .footer-icon {
+    margin-top: 1px;
+    width: 10px;
+    height: 10px;
+  }
+  .flex-icon {
+    display: flex;
+    height: 2px;
+  }
+  .footer-sites {
+    width: 45px;
+  }
+  .email {
+    width: 220px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: -120px;
+  }
+  .email-title {
+    margin-bottom: -2px;
+    font-weight: 700;
+    font-size: 7px;
+  }
+  .email-address {
+    padding: 0 0 0 6px;
+    border-radius: 4px;
+    width: 140px;
+    height: 15px;
+    font-size: 6px;
+    background: white;
+    color: #22262a;
+  }
+  .join {
+    position: relative;
+    font-weight: 600;
+    font-size: 6px;
+    top: -24px;
+    left: 118px;
+    color: #22262a;
+  }
+  .support-container-1 {
+    margin-right: 10px;
+  }
+  .support-container-2 {
+    margin-right: 10px;
+  }
+  .support-title {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 6px;
+    color: #22262a;
+  }
+  .support-text {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 5px;
+    color: #22262a;
+  }
+  .bottom-text-2 {
+    padding: 10px 0 10px;
+    font-size: 7px;
+  }
 }

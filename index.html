@@ -182,7 +182,7 @@
     <header class="header">
       <div class="header-wrapper">
         <img
-          id="header-img-bottom"
+          class="header-img-bottom"
           src="./img/header-img-bottom.png"
           alt="img"
         />
@@ -209,7 +209,14 @@
         </div>
         <div class="email">
           <h5 class="email-title">RECIVE EMAIL UPDATES</h5>
-          <img class="email-address" src="./img/email.png" alt="email" />
+          <div class="email-container">
+            <input
+              class="email-address"
+              type="email"
+              placeholder="Your Email Address"
+            />
+            <button class="join">JOIN</button>
+          </div>
           <div class="container-flex">
             <div class="support-container-1">
               <h6 class="support-title">SHOP</h6>
@@ -235,11 +242,9 @@
           </div>
         </div>
       </div>
-      <div class="bottom">
-        <p class="bottom-text-2">
-          Copyright © 2020 . Your company name All rights reserved
-        </p>
-      </div>
+      <p class="bottom-text-2">
+        Copyright © 2020 . Your company name All rights reserved
+      </p>
     </footer>
   </body>
 </html>
